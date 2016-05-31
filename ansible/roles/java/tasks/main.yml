@@ -1,0 +1,11 @@
+---
+
+- debug:
+    msg: "Confluent Platform requires your agreement to a usage license. Please download ZIP release at http://www.confluent.io/download and place the file at the project root (expected file name: confluent-3.0.0-2.11.zip)"
+
+
+- name: Copy confluent platform
+  copy: src=../confluent-3.0.0-2.11.zip dest=/home/vagrant/confluent.zip
+
+- name: Unzip confluent platform
+  unarchive: src=/home/vagrant/confluent.zip dest=/home/vagrant/ copy=no

@@ -118,3 +118,8 @@ local.properties
 
 # Code Recommenders
 .recommenders/
+
+confluent*
+
+*.iml
+*.retry
