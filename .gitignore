@@ -123,3 +123,7 @@ confluent*
 
 *.iml
 *.retry
+
+.idea
+.vagrant
+
