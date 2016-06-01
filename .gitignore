@@ -119,7 +119,7 @@ local.properties
 # Code Recommenders
 .recommenders/
 
-confluent*
+/confluent*
 
 *.iml
 *.retry
