@@ -127,3 +127,5 @@ local.properties
 .idea
 .vagrant
 
+*.log
+
